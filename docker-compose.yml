@@ -1,0 +1,7 @@
+version: '3'
+services:
+   kc_backend:
+    build: ./backend
+    image: kc_backend
+    container_name: kc_backend
+    network_mode: kong-net

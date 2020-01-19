@@ -1,0 +1,19 @@
+{
+  "name": "kongchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Uk Chukundah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "stream-chat": "^1.2.3"
+  }
+}
